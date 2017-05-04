@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NibCell.h
 //  VendorList
 //
 //  Created by Saltmines-Mac2 on 18/12/15.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NibCell : UICollectionViewCell
 
+@property (strong, nonatomic) IBOutlet UIButton *btniblt;
+
+- (IBAction)pressButton:(id)sender;
 
 @end
-

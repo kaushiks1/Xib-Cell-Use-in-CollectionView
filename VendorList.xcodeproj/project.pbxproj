@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD74CDF31C24322900141603 /* VendorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74CDF11C24322900141603 /* VendorListViewController.m */; };
+		DD74CDF41C24322900141603 /* VendorListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD74CDF21C24322900141603 /* VendorListViewController.xib */; };
+		DD74CDF61C24391100141603 /* Screen-Shot-2012-07-20-at-1_43_13-PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DD74CDF51C24391100141603 /* Screen-Shot-2012-07-20-at-1_43_13-PM.png */; };
+		DD74CDFA1C2440C900141603 /* NibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74CDF81C2440C900141603 /* NibCell.m */; };
+		DD74CDFB1C2440C900141603 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD74CDF91C2440C900141603 /* NibCell.xib */; };
 		DDA08A241C2428C8000C6B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA08A231C2428C8000C6B7C /* main.m */; };
 		DDA08A271C2428C8000C6B7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA08A261C2428C8000C6B7C /* AppDelegate.m */; };
-		DDA08A2A1C2428C8000C6B7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA08A291C2428C8000C6B7C /* ViewController.m */; };
-		DDA08A2D1C2428C8000C6B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA08A2B1C2428C8000C6B7C /* Main.storyboard */; };
 		DDA08A2F1C2428C8000C6B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA08A2E1C2428C8000C6B7C /* Assets.xcassets */; };
-		DDA08A321C2428C8000C6B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA08A301C2428C8000C6B7C /* LaunchScreen.storyboard */; };
 		DDA08A3D1C2428C8000C6B7C /* VendorListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA08A3C1C2428C8000C6B7C /* VendorListTests.m */; };
 		DDA08A481C2428C8000C6B7C /* VendorListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA08A471C2428C8000C6B7C /* VendorListUITests.m */; };
 /* End PBXBuildFile section */
@@ -35,15 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD74CDF01C24322900141603 /* VendorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorListViewController.h; sourceTree = "<group>"; };
+		DD74CDF11C24322900141603 /* VendorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendorListViewController.m; sourceTree = "<group>"; };
+		DD74CDF21C24322900141603 /* VendorListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VendorListViewController.xib; sourceTree = "<group>"; };
+		DD74CDF51C24391100141603 /* Screen-Shot-2012-07-20-at-1_43_13-PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen-Shot-2012-07-20-at-1_43_13-PM.png"; sourceTree = "<group>"; };
+		DD74CDF71C2440C900141603 /* NibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibCell.h; sourceTree = "<group>"; };
+		DD74CDF81C2440C900141603 /* NibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NibCell.m; sourceTree = "<group>"; };
+		DD74CDF91C2440C900141603 /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
 		DDA08A1F1C2428C8000C6B7C /* VendorList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendorList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA08A231C2428C8000C6B7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDA08A251C2428C8000C6B7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDA08A261C2428C8000C6B7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDA08A281C2428C8000C6B7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DDA08A291C2428C8000C6B7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DDA08A2C1C2428C8000C6B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDA08A2E1C2428C8000C6B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDA08A311C2428C8000C6B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA08A331C2428C8000C6B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA08A381C2428C8000C6B7C /* VendorListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendorListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA08A3C1C2428C8000C6B7C /* VendorListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VendorListTests.m; sourceTree = "<group>"; };
@@ -101,13 +106,16 @@
 		DDA08A211C2428C8000C6B7C /* VendorList */ = {
 			isa = PBXGroup;
 			children = (
+				DD74CDF51C24391100141603 /* Screen-Shot-2012-07-20-at-1_43_13-PM.png */,
 				DDA08A251C2428C8000C6B7C /* AppDelegate.h */,
 				DDA08A261C2428C8000C6B7C /* AppDelegate.m */,
-				DDA08A281C2428C8000C6B7C /* ViewController.h */,
-				DDA08A291C2428C8000C6B7C /* ViewController.m */,
-				DDA08A2B1C2428C8000C6B7C /* Main.storyboard */,
+				DD74CDF01C24322900141603 /* VendorListViewController.h */,
+				DD74CDF11C24322900141603 /* VendorListViewController.m */,
+				DD74CDF21C24322900141603 /* VendorListViewController.xib */,
+				DD74CDF71C2440C900141603 /* NibCell.h */,
+				DD74CDF81C2440C900141603 /* NibCell.m */,
+				DD74CDF91C2440C900141603 /* NibCell.xib */,
 				DDA08A2E1C2428C8000C6B7C /* Assets.xcassets */,
-				DDA08A301C2428C8000C6B7C /* LaunchScreen.storyboard */,
 				DDA08A331C2428C8000C6B7C /* Info.plist */,
 				DDA08A221C2428C8000C6B7C /* Supporting Files */,
 			);
@@ -243,9 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA08A321C2428C8000C6B7C /* LaunchScreen.storyboard in Resources */,
+				DD74CDF41C24322900141603 /* VendorListViewController.xib in Resources */,
+				DD74CDF61C24391100141603 /* Screen-Shot-2012-07-20-at-1_43_13-PM.png in Resources */,
+				DD74CDFB1C2440C900141603 /* NibCell.xib in Resources */,
 				DDA08A2F1C2428C8000C6B7C /* Assets.xcassets in Resources */,
-				DDA08A2D1C2428C8000C6B7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA08A2A1C2428C8000C6B7C /* ViewController.m in Sources */,
 				DDA08A271C2428C8000C6B7C /* AppDelegate.m in Sources */,
+				DD74CDF31C24322900141603 /* VendorListViewController.m in Sources */,
 				DDA08A241C2428C8000C6B7C /* main.m in Sources */,
+				DD74CDFA1C2440C900141603 /* NibCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +316,6 @@
 			targetProxy = DDA08A441C2428C8000C6B7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DDA08A2B1C2428C8000C6B7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDA08A2C1C2428C8000C6B7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DDA08A301C2428C8000C6B7C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDA08A311C2428C8000C6B7C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DDA08A4A1C2428C8000C6B7C /* Debug */ = {
@@ -414,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VendorList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.VendorList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VendorList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.VendorList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +491,7 @@
 				DDA08A4E1C2428C8000C6B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDA08A4F1C2428C8000C6B7C /* Build configuration list for PBXNativeTarget "VendorListTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +500,7 @@
 				DDA08A511C2428C8000C6B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDA08A521C2428C8000C6B7C /* Build configuration list for PBXNativeTarget "VendorListUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +509,7 @@
 				DDA08A541C2428C8000C6B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
